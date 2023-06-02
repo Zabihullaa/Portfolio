@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto';
+    scroll-behavior: smooth;
 }
 
 a {
@@ -41,7 +42,9 @@ body {
     margin-bottom: 45px;
 }
 
-
+.sectionp {
+    padding-top: 100px;
+}
 
 /*//////////////////////////////////////////////    NAV   //////////////////////////////////////////// */
 .nav {
@@ -118,10 +121,7 @@ body {
 
 /*//////////////////////////////////////////////   HEADER   //////////////////////////////////////////// */
 
-.header {
-    padding-top: 100px;
-    padding-bottom: 80px;
-}
+
 
 .header__content {
     display: flex;
@@ -183,9 +183,7 @@ body {
 
 /*//////////////////////////////////////////////   ABOUT   //////////////////////////////////////////// */
 
-.about {
-    padding-bottom: 80px;
-}
+
 
 .about__content {
     display: flex;
@@ -226,10 +224,7 @@ body {
 
 
 /*//////////////////////////////////////////////   SKILLS   //////////////////////////////////////////// */
-.skills {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 
 .skills__content {
     display: flex;
@@ -334,10 +329,7 @@ body {
 /*//////////////////////////////////////////////   PROJECTS   //////////////////////////////////////////// */
 
 
-.projects{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 
 .projects__content {
     display: flex;
@@ -353,6 +345,72 @@ body {
     width: 100%;
     height: auto;
 }
-.projects__link{
+
+.projects__link {
     text-align: center;
+}
+
+/*//////////////////////////////////////////////   PROJECTS   //////////////////////////////////////////// */
+
+
+
+/*//////////////////////////////////////////////   CONTEACT   //////////////////////////////////////////// */
+
+
+.contact__left-title {
+    margin-bottom: 30px;
+}
+
+.contact__left-text {
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact__right-form {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+
+
+}
+
+.contact__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact__input {
+    max-width: 400px;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    color: yellow;
+    background-color: #000;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.contact__input::placeholder {
+    color: yellow;
+    font-size: 15px;
+}
+
+.contact__right-title {
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact__btn {
+    width: 100%;
+    background: black;
+    color: yellow;
+    padding: 15px;
 }
